@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Magento PHP Developer's Guide - Allan MacGregor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <%= stylesheet_link_tag 'bootstrap' %>
+    <%= stylesheet_link_tag 'magedevguide' %>
+    <%= stylesheet_link_tag 'flat-ui' %>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <div class="buy">
+        <%= image_tag '3060os_cover.png' %>
+        <div class="span3">
+          <a class="btn btn-large btn-block" target="_blank" href="http://www.packtpub.com/magento-php-developers-guide/book">Get The Book!</a>
+        </div>
+      </div>
+
+      <div class="main-nav">
+        <ul id="nav">
+          <li class="current">
+            <h4 class="name"><a href="#section-1">About the Book</a></h4>
+            <div class="content">
+            </div>
+          </li>
+          <li class="">
+            <h4 class="name"><a href="#section-2">Chapters Overview</a></h4>
+            <div class="content">
+            </div>
+          </li>
+          <li class="">
+            <h4 class="name"><a href="#section-3">About the Author</a></h4>
+            <div class="content">
+            </div>
+          </li>   
+          <li class="">
+            <h4 class="name"><a href="#section-4">FAQ</a></h4>
+            <div class="content">
+            </div>
+          </li>         
+          <li class="">
+            <h4 class="name"><a href="#section-5">Screencasts</a></h4>
+            <div class="content">
+            </div>
+          </li>    
+          <li class="">
+            <h4 class="name"><a href="#section-6">Training</a></h4>
+            <div class="content">
+            </div>
+          </li>  
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="container">
+      <%= yield %>
+    </div> <!-- /container -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span7">
+            <h3 class="footer-title">Subscribe</h3>
+            <p>Do you like this book? Want to get more training like this?<br/>
+              Subscribe to MageDevGuide news and updates to stay tuned on new Magento updates and training .<br/>
+              Go to: <a href="http://magedevguide.com/training" target="_blank">magedevguide.com/training</a>
+            </p>
+
+            <p class="pvl">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://magedevguide.com" data-text="Magento Developers Guide" data-via="magedevguide" data-size="large">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
+
+            <a class="footer-brand" href="http://magedevguide.com" target="_blank">
+              <img src="images/footer/logo.png" alt="MageDevGuide.com" />
+            </a>
+          </div> <!-- /span8 -->
+
+          <div class="span5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Blog Feed</h3>
+              <ul>
+                <li>Tons of Basic and Custom UI Elements</li>
+                <li>A Lot of Useful Samples</li>
+                <li>More Vector Icons and Glyphs</li>
+                <li>Pro Color Swatches</li>
+                <li>Bootstrap Based HTML/CSS/JS Layout</li>
+              </ul>
+              Go to: <a href="http://magedevguide.com/blog" target="_blank">magedevguide.com/blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <%= javascript_include_tag 'jquery', 'jquery.nav', 'jquery.scrollTo', 'application' %>
+
+  </body>
+</html>
