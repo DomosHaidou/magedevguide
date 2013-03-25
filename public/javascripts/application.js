@@ -5,7 +5,7 @@ $('#nav').onePageNav({
     scrollSpeed: 750,
     scrollOffset: 30,
     scrollThreshold: 0.5,
-    filter: '',
+ 	filter: ':not(.external)',
     easing: 'swing',
     begin: function() {
         //I get fired when the animation is starting
