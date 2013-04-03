@@ -177,7 +177,7 @@
 
 body {
   color: #34495e;
-  font: 14px/1.231 "Lato", sans-serif; }
+  font: 14px/1.8 "Lato", sans-serif; }
 
 a {
   color: #d35400;
@@ -189,7 +189,8 @@ a {
   -webkit-backface-visibility: hidden; }
 
 a:hover {
-  color: #2ecc71;
+  color: #c0392b;
+  font-weight: bold;
   text-decoration: none; }
 
 h1 {

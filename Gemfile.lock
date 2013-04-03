@@ -60,6 +60,7 @@ GEM
     rack-test (0.6.2)
       rack (>= 1.0)
     rake (10.0.3)
+    redcarpet (2.2.2)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -96,6 +97,7 @@ DEPENDENCIES
   padrino (= 0.10.7)
   rack-test
   rake
+  redcarpet
   rspec
   sass
   sinatra-flash

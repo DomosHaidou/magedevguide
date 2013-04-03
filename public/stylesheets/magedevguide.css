@@ -42,3 +42,13 @@ div.buy {
 
 .two-columns .tile ul {
   text-align: left; }
+
+.answer {
+  padding-left: 15px; }
+
+.container {
+  margin-left: 300px;
+  min-height: 500px; }
+
+.chapter {
+  margin: 40px 0; }
