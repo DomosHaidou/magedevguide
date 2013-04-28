@@ -1,0 +1,15 @@
+{
+    "error_number": "001",
+    "page_number": "79",
+    "chapter_number": "3",
+    "content":{
+        "title":"Extra Semicolon",
+        "description":"There is an extra semicolon, on the code block second line.",
+        "code_file" : "err001_code"
+    },
+    "author":{
+        "name":"Kevin Javitz",
+        "email":"kjavitz@itwebexperts.com",
+        "website":"www.itwebexperts.com"
+    }
+} 

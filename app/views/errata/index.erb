@@ -1,0 +1,6 @@
+<% @parsed.each do |error| %>
+	<h3><%= error["error_number"] %> - <%= error["content"]["title"] %></h3>
+	<h4>Chapter <%= error["chapter_number"] %> - Page Number: <%= error["page_number"] %></h4>
+	<p><%= error["content"]["description"] %></p>
+	<%= ErrataHelper.render_errata_content(error['content']['code_file']) %>
+<% end %>

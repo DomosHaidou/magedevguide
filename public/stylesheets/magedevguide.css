@@ -50,5 +50,11 @@ div.buy {
   margin-left: 300px;
   min-height: 500px; }
 
+footer .container {
+  min-height: 270px; }
+
 .chapter {
   margin: 40px 0; }
+
+h3 strong {
+  color: #E67E22; }

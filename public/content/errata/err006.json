@@ -1,0 +1,15 @@
+{
+    "error_number": "006",
+    "page_number": "166",
+    "chapter_number": "6",
+    "content":{
+        "title":"Content Correction",
+        "description":"The following text \"is only available on Magento CE 1.7 or older\" should be \"is only available on Magento CE 1.7 or newer\"",
+        "code_file" : "err001_code.md"
+    },
+    "author":{
+        "name":"Kevin Javitz",
+        "email":"kjavitz@itwebexperts.com",
+        "website":"www.itwebexperts.com"
+    }
+} 

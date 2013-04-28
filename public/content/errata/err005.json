@@ -1,0 +1,15 @@
+{
+    "error_number": "005",
+    "page_number": "164",
+    "chapter_number": "6",
+    "content":{
+        "title":"Incorrect File Location",
+        "description":"",
+        "code_file" : "err005_code"
+    },
+    "author":{
+        "name":"Kevin Javitz",
+        "email":"kjavitz@itwebexperts.com",
+        "website":"www.itwebexperts.com"
+    }
+} 

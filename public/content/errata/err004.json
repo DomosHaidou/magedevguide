@@ -1,0 +1,15 @@
+{
+    "error_number": "004",
+    "page_number": "130",
+    "chapter_number": "4",
+    "content":{
+        "title":"Missing semi-colon",
+        "description":"Missing semi-colon on the second line",
+        "code_file" : "err004_code"
+    },
+    "author":{
+        "name":"Kevin Javitz",
+        "email":"kjavitz@itwebexperts.com",
+        "website":"www.itwebexperts.com"
+    }
+} 

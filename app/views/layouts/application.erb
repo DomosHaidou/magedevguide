@@ -27,7 +27,7 @@
       </div>
 
       <div class="main-nav">
-        <% if(params.has_key?(:chapter_id) || params.has_key?(:slug))  %>
+        <% if(params.has_key?(:chapter_id) || params.has_key?(:slug)) || request.route_obj.controller == 'errata' %>
           <ul id="nav-internal">
               <li class="current">
                 <h4 class="name"><a href="/">Go Back</a></h4>
@@ -63,7 +63,7 @@
                 <h4 class="name"><a href="#section-4">FAQ</a></h4>
                 <div class="content">
                 </div>
-              </li>         
+              </li>      
               <li class="">
                 <h4 class="name"><a href="#section-5">Screencasts</a></h4>
                 <div class="content">
@@ -74,6 +74,12 @@
                 <div class="content">
                 </div>
               </li> 
+              <li class="">
+                <h4 class="name"><a href="/errata" class="external">Errata</a></h4>
+                <div class="content">
+                </div>
+              </li>   
+
             </ul>
           <% end %>
       </div> 

@@ -1,0 +1,15 @@
+{
+    "error_number": "002",
+    "page_number": "82",
+    "chapter_number": "3",
+    "content":{
+        "title":"Change stock_status to stock_item",
+        "description":"",
+        "code_file" : "err002_code"
+    },
+    "author":{
+        "name":"Kevin Javitz",
+        "email":"kjavitz@itwebexperts.com",
+        "website":"www.itwebexperts.com"
+    }
+} 
