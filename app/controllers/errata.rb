@@ -20,7 +20,7 @@ Magedevguide.controllers :errata do
 
   get :index do
     @parsed = Array.new
-    Dir.glob('public/content/errata/*.json') do |file|
+    Dir.glob('public/content/errata/*.json').sort.each do |file|
       json_file = open(file)
       json = json_file.read
       @parsed.push(JSON.parse(json))
