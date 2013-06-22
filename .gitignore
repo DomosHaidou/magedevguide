@@ -4,4 +4,4 @@ tmp/**/*
 bin/*
 vendor/gems/*
 !vendor/gems/cache/
-.sass-cache/*
+.sass-cache/*sftp-config.json
