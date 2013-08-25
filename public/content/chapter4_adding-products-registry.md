@@ -52,14 +52,14 @@ Let's go ahead and create our block class:
 This block needs a function that returns a collection of registries from the current customer. Let's call our function
 **getCustomerRegistryCollection()**, this function will referenced in the template file we will add next
 
-This function looks for a logged in customer and if one exists it will retrive a collection of all the registries 
+This function looks for a logged in customer and if one exists it will retrieve a collection of all the registries 
 associated with this customer.
 
 <script src="https://gist.github.com/amacgregor/5306447.js"></script>
 
 ### Template and Layout
 
-At this point we added the logic that we need for retriving the associated registries with the current customer, next 
+At this point we added the logic that we need for retrieving the associated registries with the current customer, next 
 we will do the following:
 
 - Add the block to the Magento layout.
@@ -128,5 +128,4 @@ If we now try to add a product to our registry we will the following message
 
 ![Product Page](/images/chapter4/added_to_the_registry.png "Product Page")
 
-That's all what is needed to add products to our giftregistries on the next articles we will discuss how to to list them under they parent registry view.
-delete them and update them.
+That's all what is needed to add products to our giftregistries on the next articles we will discuss how to to list them under they parent registry view, delete them and update them.

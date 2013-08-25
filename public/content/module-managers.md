@@ -12,17 +12,16 @@ composer simplifies deployment and extension management.
 
 ### Modman
 
-Modman by Collin Mullenhour, Modman was a tool born out of necesity and is one of my prefered deployment
+Modman by Collin Mullenhour, Modman was a tool born out of necessity and is one of my preferred deployment
 tools both on development and production environments.
 
 One of the more interesting features of modman is the ability to create symlinks to the particular 
-Magento installation, I have found this feature to be particulary usefull for testing extensions across 
+Magento installation, I have found this feature to be particularly useful for testing extensions across 
 multiple magento installations. 
 
 Instead of having multiple copies of the extension deployed across multiple development environments we 
 can  just reference a single common point through the symlinks. Any updates or changes that are made into 
-this single point immediatly take effect on all the symlinked installations.
-
+this single point immediately take effect on all the symlinked installations.
 
 
 ### Magento Connect
